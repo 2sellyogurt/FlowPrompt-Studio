@@ -1,4 +1,4 @@
-<img width="1493" height="804" alt="image" src="https://github.com/user-attachments/assets/af1b8115-41b7-4f63-8d38-45236f7fa7ff" /># FlowPrompt Studio v1.0.0
+
 
 ## 🎉 初始公开发布
 
