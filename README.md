@@ -1,4 +1,4 @@
-# FlowPrompt Studio v1.0.0
+<img width="1493" height="804" alt="image" src="https://github.com/user-attachments/assets/af1b8115-41b7-4f63-8d38-45236f7fa7ff" /># FlowPrompt Studio v1.0.0
 
 ## 🎉 初始公开发布
 
@@ -221,5 +221,9 @@
 - [ ] 云端同步功能（可选）
 - [ ] 团队协作功能
 - [ ] 自定义表单模板
-
+[![Version](https://img.shields.io/github/v/release/2sellyogurt/FlowPrompt-Studio)](https://github.com/2sellyogurt/FlowPrompt-Studio/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/2sellyogurt/FlowPrompt-Studio/total)](https://github.com/2sellyogurt/FlowPrompt-Studio/releases)
+[![License](https://img.shields.io/github/license/2sellyogurt/FlowPrompt-Studio)](https://github.com/2sellyogurt/FlowPrompt-Studio/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/2sellyogurt/FlowPrompt-Studio)](https://github.com/2sellyogurt/FlowPrompt-Studio/stargazers)
+[![Release Downloads](https://img.shields.io/github/downloads/2sellyogurt/FlowPrompt-Studio/v1.0.0/total?label=v1.0.0%20downloads)](https://github.com/2sellyogurt/FlowPrompt-Studio/releases/tag/v1.0.0)
 ---
