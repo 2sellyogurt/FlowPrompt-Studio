@@ -1,7 +1,19 @@
 # 🎉 FlowPrompt Studio 1.0.0
 
-> **English**: Make prompting more professional, make AI understand you better  
-> **中文**: 让提示词更专业，让 AI 更懂你
+<p align="center">
+  <img src="assets/banner.jpg" alt="FlowPrompt Studio Banner" width="100%">
+</p>
+
+<p align="center">
+  <b>让提示词更专业，让 AI 更懂你</b><br>
+  <i>Make prompting more professional, make AI understand you better</i>
+</p>
+
+<p align="center">
+  <a href="#-安装--installation">安装 Install</a> •
+  <a href="#-快速开始--quick-start">快速开始 Quick Start</a> •
+  <a href="#-示例--examples">示例 Examples</a>
+</p>
 
 ---
 
@@ -21,6 +33,57 @@
 | Complex problems | AI misunderstands, gives wrong answers | Enforces complete context, reduces ambiguity |
 | 和 AI 来回沟通效率低 | 说了10轮还没进入正题 | 一次性提供完整背景，标准化格式 |
 | Inefficient back-and-forth | 10 rounds and still not on topic | Provide full context upfront, standardized format |
+
+---
+
+## 🎯 示例：Before vs After | Example: Before vs After
+
+### ❌ 填表前 | Before Using FlowPrompt
+
+```
+用户输入：
+"我的登录功能有问题，帮我看看"
+
+AI 回复：
+"请问是什么问题？报错信息是什么？用的什么技术栈？
+有没有尝试过什么方案？期望的效果是什么？..."
+```
+
+> 😫 结果：来回沟通 10+ 轮，浪费时间
+
+---
+
+### ✅ 填表后 | After Using FlowPrompt
+
+```
+📋 工程化提示词 | Engineering Prompt
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+【上下文 Context】
+• 项目类型：Web 后端
+• 技术栈：Spring Boot + JWT + MySQL
+• 问题背景：生产环境偶发性登录失败
+
+【排查记录 Troubleshooting Log】
+1. 检查日志 → 未发现异常
+2. 本地复现 → 无法复现
+3. 怀疑 Token 过期时间配置问题
+
+【核心问题 Core Problem】
+JWT Token 在高并发场景下偶发验证失败
+
+【验收标准 Acceptance Criteria】
+• 登录成功率 ≥ 99.9%
+• Token 验证响应时间 < 50ms
+• 支持每秒 1000 次并发验证
+
+【边界定义 Boundaries】
+✅ 包含：Token 生成、验证、刷新逻辑
+❌ 不包含：用户权限管理、单点登录
+⚠️ 约束：兼容现有 Redis 缓存方案
+```
+
+> 😊 结果：AI 一次理解到位，直接给出针对性方案
 
 ---
 
@@ -223,3 +286,10 @@ npm install onnxruntime-node
 **内置语言支持 | Built-in Language Support:**
 ✅ JavaScript / TypeScript / Python / Java / Go  
 ⚠️ C# / C++ / Rust（需手动安装）
+
+---
+
+<p align="center">
+  <b>如果这个项目对你有帮助，请给一个 ⭐ Star 支持一下！</b><br>
+  <i>If this project helps you, please give it a ⭐ Star!</i>
+</p>
